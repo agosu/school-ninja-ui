@@ -3,17 +3,17 @@
   "name": "School Ninja User Interface App",
   "icons": [
     {
-      "src": "sn_logo.png",
+      "src": "random.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "sn_logo.png",
+      "src": "random.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "sn_logo.png",
+      "src": "random.png",
       "type": "image/png",
       "sizes": "512x512"
     }

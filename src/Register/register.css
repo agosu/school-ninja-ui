@@ -1,0 +1,9 @@
+.modal-register {
+    width: 50%;
+    border: 1px solid blue;
+    box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+    background-color: pink;
+    position: absolute;
+    right: 0;
+    z-index: 20;
+}

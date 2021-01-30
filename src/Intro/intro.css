@@ -1,0 +1,63 @@
+.intro-backgrounds {
+    filter: blur(10px);
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    text-align: center;
+    border: 1px solid white;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
+    position: absolute;
+    z-index: 10;
+}
+
+.intro-background {
+    background: url(https://cdn.pixabay.com/photo/2018/03/01/14/48/woman-3190829_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+
+.intro-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.for-student {
+    background: url(https://cdn.pixabay.com/photo/2015/08/27/02/34/school-909381_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+
+.for-student-text {
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.for-teacher {
+    background: url(https://cdn.pixabay.com/photo/2019/04/14/10/27/book-4126483_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+
+.for-teacher-text {
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact {
+    height: 20vh;
+    width: 100%;
+}
+
+.border-line {
+    width: 100%;
+    border-bottom: 1px solid white;
+    z-index: 10;
+    position: relative;
+}
