@@ -1,7 +1,11 @@
 import React from 'react';
+import { Route } from "react-router-dom";
+import StudentDashboard from "./StudentDashboard";
 
 export default function Student(props) {
-    return (
-        <div>Hello, {props.firstname} {props.lastname}. You are a student!</div>
-    )
+    return <>
+        <Route path={props.path + '/dashboard'}>
+            <StudentDashboard/>
+        </Route>
+    </>
 }
